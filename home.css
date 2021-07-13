@@ -33,14 +33,9 @@ body {
      background: rgb(38, 35, 43);
  }
 
- p {
-     max-width: 590px;
-     color:#306;
- }
-
  @font-face {
     font-family: goldoni;
-    src: url(./Goldoni.otf);
+    src: url(fonts/Goldoni.otf);
   }
 
  h1 {
@@ -56,9 +51,9 @@ body {
  }
 
  .h1-underline {
-    margin: 14% auto 0 auto;
+    margin: 14vw auto 0 auto;
     height: 0.1vw;
-    width: 28%;
+    width: 70vw;
     background: white;
     transition: 0.2s;
  }
@@ -69,7 +64,7 @@ body {
  }
 
  .content {
-    padding: 2% 4% 10% 4%;
+     /* padding: 2% 4% 10% 4%; */
     background: rgb(38, 35, 43);
     position: relative;
  }
@@ -93,7 +88,7 @@ body {
     padding-bottom: 141%;
  }
 
- @media(max-width: 800px){
+ @media(max-width: 1000px){
     .papers {
        grid-template-columns: repeat(1, 1fr);
        grid-gap: 1% 5%;
